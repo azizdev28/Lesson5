@@ -28,7 +28,7 @@ const Header = () => {
               </Link>
             </li>
             <li className="header-nav-item">
-              <Link className="text-menu" to="/authorization">
+              <Link className="text-menu" to="/">
                 <svg
                   className="svg_icon "
                   xmlns="http://www.w3.org/2000/svg"
@@ -46,7 +46,7 @@ const Header = () => {
               </Link>
             </li>
             <li className="header-nav-item">
-              <Link className="text-menu" to="/сart">
+              <Link className="text-menu" to="/">
                 <svg
                   className="svg_icon"
                   xmlns="http://www.w3.org/2000/svg"

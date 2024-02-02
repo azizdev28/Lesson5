@@ -7,10 +7,10 @@ import CatalogProduct from "./components/pages/Catalog/CatalogProduct";
 import MyCompany from "./components/pages/MyTitleCompany";
 import Contacts from "./components/HomePage/Elements/Contacts";
 import Product from "./components/pages/Product/Product";
-import Authorization from "./components/pages/Authorization";
-import Registration from "./components/pages/Registration";
+// import Authorization from "./components/pages/Authorization";
+// import Registration from "./components/pages/Registration";
 import Error from "./components/pages/Error";
-import Cart from "./components/pages/Cart/Cart";
+// import Cart from "./components/pages/Cart/Cart";
 
 function App() {
   return (
@@ -23,9 +23,9 @@ function App() {
         <Route path="/catalog/:id" element={<Product />} />
         <Route path="/company" element={<MyCompany />} />
         <Route path="/contacts" element={<Contacts />} />
-        <Route path="/сart" element={<Cart />} />
-        <Route path="/authorization" element={<Authorization />} />
-        <Route path="/registration" element={<Registration />} />
+        {/* <Route path="/сart" element={<Cart />} /> */}
+        {/* <Route path="/authorization" element={<Authorization />} /> */}
+        {/* <Route path="/registration" element={<Registration />} /> */}
       </Routes>
       <Footer />
     </div>

@@ -24,7 +24,7 @@ const Together = () => {
           Подпишитесь на наш аккаунт @marooncare и узнавайте о новиках и акциях
           первыми
         </p>
-        <Link to="/authorization">
+        <Link to="/">
           <button className="content-blog_btn">Подписаться</button>
         </Link>
       </div>
